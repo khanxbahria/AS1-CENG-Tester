@@ -47,3 +47,5 @@ options:
   ```
   python AS1_tester.py -p window -d 
   ```
+## Credits
+Thank you to [ogul1](https://github.com/ogul1) for the providing test cases!  
