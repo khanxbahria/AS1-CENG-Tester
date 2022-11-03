@@ -43,7 +43,7 @@ def v_print(msg=""):
     if ARGS.verbose:
         print(msg)
 
-def run_command(command) -> subprocess.CompletedProcess:
+def run_command(command):
     r = subprocess.run(command.split(), capture_output=True, text=True)
     return r
 
