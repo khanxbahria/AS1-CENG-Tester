@@ -33,6 +33,10 @@ f
 vv
 
 The active tab is tab 0
+vvv
+sss
+ooo
+
 uuu
 www
 i
@@ -40,12 +44,12 @@ i
 o
 f
 vv
-
-vvv
-sss
-ooo
 
 The active tab is tab 0
+vvv
+sss
+ooo
+
 uuu
 www
 i
@@ -53,10 +57,6 @@ i
 o
 f
 vv
-
-vvv
-sss
-ooo
 
 The active tab is tab 1
 s

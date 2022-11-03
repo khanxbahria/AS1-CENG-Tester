@@ -36,10 +36,6 @@ rr
 dd
 
 The active tab is tab 4
-kk
-p
-cc
-
 ee
 h
 mmm
@@ -52,51 +48,55 @@ g
 rr
 dd
 
+b
+uu
+i
+
 xx
 yyy
 n
 
-b
-uu
-i
+kk
+p
+cc
 
 The active tab is tab 2
+ee
+h
+mmm
+
 g
 rr
 dd
-
-b
-uu
-i
 
 fff
 iii
 w
 
-s
-r
-xxx
+b
+uu
+i
 
 kk
 p
 cc
 
 The active tab is tab 0
-s
-r
-xxx
-
 b
 uu
 i
+
+g
+rr
+dd
 
 kk
 p
 cc
 
-g
-rr
-dd
+ee
+h
+mmm
 
 oo
 nnn

@@ -132,4 +132,5 @@ wind->getActiveTab();
 delete wind;
 }
 	return 0;
-}
+};
+

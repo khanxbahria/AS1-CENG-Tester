@@ -133,4 +133,5 @@ Tab L = Tab("ddd", "y","t");
 delete wind;
 }
 	return 0;
-}
+};
+

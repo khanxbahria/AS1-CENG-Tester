@@ -254,10 +254,6 @@ f
 vv
 
 The active tab is tab 4
-ttt
-f
-vv
-
 l
 v
 kk
@@ -274,19 +270,19 @@ ll
 x
 ppp
 
-ee
-uuu
-ff
+n
+eee
+rr
+
+ttt
+f
+vv
 
 c
 m
 fff
 
 The active tab is tab 4
-ttt
-f
-vv
-
 l
 v
 kk
@@ -303,9 +299,13 @@ ll
 x
 ppp
 
-ee
-uuu
-ff
+n
+eee
+rr
+
+ttt
+f
+vv
 
 c
 m

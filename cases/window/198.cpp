@@ -4,7 +4,9 @@
 int main() {
 {
 Window* wind = new Window();
-wind->print();
+wind->print(); ///
+
+
 Tab D = Tab("ppp", "ggg","jjj");
 wind->getActiveTab();
 Tab N = Tab("xxx", "uu","aa");
@@ -23,18 +25,18 @@ wind->closeTab();
 Tab R = Tab("pp", "rrr","nn");
 wind->closeTab();
 Tab T = Tab("ll", "bb","gg");
-wind->print();
+wind->print();////
 Tab F = Tab("hh", "ll","ww");
 wind->closeTab();
 Tab S = Tab("a", "t","qq");
 wind->moveActiveTabTo(3);
 wind->newTab(B);
 wind->moveActiveTabTo(4);
-wind->print();
+wind->print(); /// www
 wind->getActiveTab();
 wind->closeTab();
 Tab G = Tab("ss", "c","w");
-wind->print();
+wind->print(); /// empty
 Tab M = Tab("nn", "o","gg");
 wind->isEmpty();
 Tab A = Tab("fff", "hhh","zz");
@@ -43,7 +45,7 @@ wind->moveActiveTabTo(5);
 Tab V = Tab("vv", "zz","xx");
 wind->moveActiveTabTo(2);
 wind->isEmpty();
-wind->print();
+wind->print(); /// empty
 wind->changeActiveTabTo(5);
 wind->moveActiveTabTo(1);
 wind->getActiveTab();
@@ -72,29 +74,31 @@ wind->getActiveTab();
 wind->newTab(H);
 wind->moveActiveTabTo(2);
 wind->changeActiveTabTo(3);
-wind->print();
+wind->print(); ///3 hhh
+
+/*
 wind->isEmpty();
 wind->isEmpty();
 wind->moveActiveTabTo(2);
-wind->print();
+wind->print(); /// 2 hhh
 wind->isEmpty();
 wind->moveActiveTabTo(1);
 wind->newTab(J);
 wind->isEmpty();
 wind->newTab(K);
 wind->moveActiveTabTo(0);
-wind->print();
-wind->moveActiveTabTo(5);
-wind->closeTab();
+wind->print(); //// 0 cc
+wind->moveActiveTabTo(5); // (5) h c u l q cc
+wind->closeTab(); // (4) h c u l q
 Tab I = Tab("q", "z","kk");
-wind->moveActiveTabTo(4);
+wind->moveActiveTabTo(4); // (4) h c u l q
 wind->getActiveTab();
-wind->moveActiveTabTo(0);
+wind->moveActiveTabTo(0); // (0) q h c u l
 wind->isEmpty();
 wind->isEmpty();
-wind->moveActiveTabTo(1);
+wind->moveActiveTabTo(1); // (1) h q c u l
 wind->getActiveTab();
-wind->print();
+wind->print(); //// farklı
 wind->moveActiveTabTo(0);
 wind->getActiveTab();
 wind->newTab(I);
@@ -129,6 +133,7 @@ wind->print();
 wind->closeTab();
 wind->newTab(R);
 wind->moveActiveTabTo(1);
+*/
 delete wind;
 }
 	return 0;

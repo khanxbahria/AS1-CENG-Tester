@@ -179,21 +179,21 @@ xx
 mm
 
 The active tab is tab 2
-www
-xxx
-xxx
+l
+i
+mmm
 
-uu
-y
-cc
+a
+xx
+mm
 
 yyy
 ppp
 zzz
 
-a
-xx
-mm
+uu
+y
+cc
 
 c
 jj
@@ -204,17 +204,17 @@ f
 rr
 
 The active tab is tab 1
-www
-xxx
-xxx
-
-uu
-y
-cc
+l
+i
+mmm
 
 a
 xx
 mm
+
+uu
+y
+cc
 
 rrr
 l

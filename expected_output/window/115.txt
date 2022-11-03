@@ -37,14 +37,6 @@ nnn
 zz
 
 The active tab is tab 4
-a
-kkk
-j
-
-iii
-zz
-ii
-
 b
 ggg
 t
@@ -65,7 +57,6 @@ gg
 tt
 s
 
-The active tab is tab 2
 a
 kkk
 j
@@ -74,6 +65,7 @@ iii
 zz
 ii
 
+The active tab is tab 2
 b
 ggg
 t
@@ -82,23 +74,23 @@ nn
 vvv
 z
 
-gg
-tt
-s
+jjj
+pp
+pp
+
+zz
+pp
+r
+
+iii
+zz
+ii
 
 lll
 qqq
 iii
 
 The active tab is tab 3
-a
-kkk
-j
-
-iii
-zz
-ii
-
 b
 ggg
 t
@@ -107,80 +99,88 @@ nn
 vvv
 z
 
-gg
-tt
-s
+jjj
+pp
+pp
+
+zz
+pp
+r
+
+iii
+zz
+ii
 
 lll
 qqq
 iii
 
 The active tab is tab 2
-a
-kkk
-j
-
-iii
-zz
-ii
+b
+ggg
+t
 
 nn
 vvv
 z
 
-b
-ggg
-t
+zz
+pp
+r
 
-gg
-tt
-s
+jjj
+pp
+pp
+
+iii
+zz
+ii
 
 lll
 qqq
 iii
 
 The active tab is tab 2
-a
-kkk
-j
-
-iii
-zz
-ii
+b
+ggg
+t
 
 nn
 vvv
 z
 
-b
-ggg
-t
+zz
+pp
+r
 
-gg
-tt
-s
+jjj
+pp
+pp
+
+iii
+zz
+ii
 
 lll
 qqq
 iii
 
 The active tab is tab 4
-a
-kkk
-j
-
-iii
-zz
-ii
-
 b
 ggg
 t
 
-gg
-tt
-s
+nn
+vvv
+z
+
+jjj
+pp
+pp
+
+iii
+zz
+ii
 
 iii
 u
@@ -191,21 +191,21 @@ qqq
 iii
 
 The active tab is tab 2
-a
-kkk
-j
-
-iii
-zz
-ii
-
 b
 ggg
 t
 
-gg
-tt
-s
+nn
+vvv
+z
+
+jjj
+pp
+pp
+
+iii
+zz
+ii
 
 iii
 u
@@ -216,21 +216,21 @@ qqq
 iii
 
 The active tab is tab 4
-a
-kkk
-j
+b
+ggg
+t
+
+nn
+vvv
+z
 
 iii
 zz
 ii
 
-gg
-tt
-s
-
-b
-ggg
-t
+jjj
+pp
+pp
 
 fff
 yy
@@ -245,13 +245,13 @@ qqq
 iii
 
 The active tab is tab 4
-gg
-tt
-s
+iii
+zz
+ii
 
-b
-ggg
-t
+jjj
+pp
+pp
 
 fff
 yy
@@ -266,13 +266,13 @@ qqq
 iii
 
 The active tab is tab 3
-gg
-tt
-s
+iii
+zz
+ii
 
-b
-ggg
-t
+jjj
+pp
+pp
 
 fff
 yy
@@ -287,13 +287,13 @@ qqq
 iii
 
 The active tab is tab 5
-gg
-tt
-s
+iii
+zz
+ii
 
-b
-ggg
-t
+jjj
+pp
+pp
 
 fff
 yy

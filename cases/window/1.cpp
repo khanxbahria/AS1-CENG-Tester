@@ -73,6 +73,27 @@ wind->closeTab();
 wind->newTab(A);
 wind->changeActiveTabTo(2);
 wind->print();
+//  The active tab is tab 2
+//  ll
+//  n
+//  c
+
+//  oo
+//  b
+//  x
+
+//  xxx
+//  dd
+//  p
+
+//  l
+//  j
+//  ddd
+
+//  s
+//  nnn
+//  uu
+
 wind->moveActiveTabTo(4);
 Tab G = Tab("n", "yyy","m");
 wind->isEmpty();
@@ -93,6 +114,7 @@ wind->changeActiveTabTo(5);
 wind->changeActiveTabTo(1);
 wind->moveActiveTabTo(1);
 wind->print();
+
 wind->print();
 wind->isEmpty();
 Tab Y = Tab("iii", "dd","hh");
@@ -133,4 +155,5 @@ wind->moveActiveTabTo(4);
 delete wind;
 }
 	return 0;
-}
+};
+

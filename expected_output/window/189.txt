@@ -25,36 +25,36 @@ g
 jj
 
 The active tab is tab 2
-a
-yy
-ggg
+q
+zz
+c
 
-mmm
-gg
-sss
+d
+ee
+dd
 
 yyy
 eee
 v
 
 The active tab is tab 1
-a
-yy
-ggg
+q
+zz
+c
 
-mmm
-gg
-sss
-
-The active tab is tab 0
-a
-yy
-ggg
+d
+ee
+dd
 
 The active tab is tab 0
-a
-yy
-ggg
+q
+zz
+c
+
+The active tab is tab 0
+q
+zz
+c
 
 zz
 ww

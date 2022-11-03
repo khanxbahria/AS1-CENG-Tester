@@ -185,10 +185,6 @@ rr
 ggg
 
 The active tab is tab 4
-o
-rr
-ggg
-
 
 
 
@@ -207,13 +203,13 @@ bbb
 
 pp
 hh
+ggg
+
+o
+rr
 ggg
 
 The active tab is tab 4
-o
-rr
-ggg
-
 
 
 
@@ -232,20 +228,20 @@ bbb
 
 pp
 hh
+ggg
+
+o
+rr
 ggg
 
 The active tab is tab 3
-o
-rr
+
+
+
+
+pp
+hh
 ggg
-
-p
-ss
-bbb
-
-
-
-
 
 q
 www
@@ -255,32 +251,36 @@ ggg
 zz
 bb
 
-pp
-hh
+p
+ss
+bbb
+
+o
+rr
 ggg
 
 The active tab is tab 0
+ggg
+zz
+bb
+
+
+
+
+
+pp
+hh
+ggg
+
 q
 www
 aa
-
-o
-rr
-ggg
 
 p
 ss
 bbb
 
-
-
-
-
-ggg
-zz
-bb
-
-pp
-hh
+o
+rr
 ggg
 

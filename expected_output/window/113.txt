@@ -99,10 +99,6 @@ ss
 ooo
 
 The active tab is tab 2
-ii
-ss
-ooo
-
 kk
 lll
 vvv
@@ -114,12 +110,12 @@ o
 lll
 eee
 s
+
+ii
+ss
+ooo
 
 The active tab is tab 2
-ii
-ss
-ooo
-
 kk
 lll
 vvv
@@ -131,21 +127,25 @@ o
 lll
 eee
 s
+
+ii
+ss
+ooo
 
 The active tab is tab 0
 a
 vvv
 w
 
-ii
-ss
-ooo
-
-eee
-bbb
-o
+kk
+lll
+vvv
 
 lll
 eee
 s
+
+ii
+ss
+ooo
 

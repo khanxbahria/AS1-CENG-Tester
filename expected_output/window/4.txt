@@ -154,14 +154,6 @@ sss
 l
 
 The active tab is tab 1
-mm
-sss
-l
-
-ii
-ss
-mm
-
 y
 b
 ppp
@@ -169,6 +161,10 @@ ppp
 uuu
 f
 d
+
+ii
+ss
+mm
 
 uu
 ooo
@@ -181,16 +177,12 @@ f
 dd
 zzz
 j
+
+mm
+sss
+l
 
 The active tab is tab 1
-mm
-sss
-l
-
-ii
-ss
-mm
-
 y
 b
 ppp
@@ -198,6 +190,10 @@ ppp
 uuu
 f
 d
+
+ii
+ss
+mm
 
 uu
 ooo
@@ -210,19 +206,15 @@ f
 dd
 zzz
 j
+
+mm
+sss
+l
 
 The active tab is tab 3
-mm
-sss
-l
-
 y
 b
 ppp
-
-uuu
-f
-d
 
 ii
 ss
@@ -232,6 +224,10 @@ uu
 ooo
 gg
 
+uuu
+f
+d
+
 x
 www
 f
@@ -240,34 +236,34 @@ dd
 zzz
 j
 
-The active tab is tab 1
 mm
 sss
 l
+
+The active tab is tab 1
+y
+b
+ppp
 
 p
 r
 rrr
 
-y
-b
-ppp
+ii
+ss
+mm
 
 ttt
 kkk
 ff
 
-uuu
-f
-d
-
-ii
-ss
-mm
-
 uu
 ooo
 gg
+
+uuu
+f
+d
 
 x
 www
@@ -277,30 +273,30 @@ dd
 zzz
 j
 
-The active tab is tab 1
 mm
 sss
 l
 
+The active tab is tab 1
 y
 b
 ppp
-
-ttt
-kkk
-ff
-
-uuu
-f
-d
 
 ii
 ss
 mm
 
+ttt
+kkk
+ff
+
 uu
 ooo
 gg
+
+uuu
+f
+d
 
 x
 www
@@ -309,4 +305,8 @@ f
 dd
 zzz
 j
+
+mm
+sss
+l
 

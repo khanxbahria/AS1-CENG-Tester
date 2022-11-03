@@ -11,10 +11,6 @@ dd
 kkk
 
 The active tab is tab 2
-www
-ii
-oo
-
 ll
 aa
 j
@@ -23,15 +19,19 @@ cc
 qqq
 kk
 
-The active tab is tab 0
-www
-ii
-oo
+e
+dd
+kkk
 
 The active tab is tab 0
-www
-ii
-oo
+ll
+aa
+j
+
+The active tab is tab 0
+ll
+aa
+j
 
 The active tab is tab 0
 i

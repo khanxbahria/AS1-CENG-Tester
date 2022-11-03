@@ -132,4 +132,5 @@ wind->newTab(O);
 delete wind;
 }
 	return 0;
-}
+};
+

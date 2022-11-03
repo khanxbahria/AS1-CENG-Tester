@@ -1,4 +1,5 @@
 # remove last 3 lines
+import os
 
 def correct_each(num):
     with open(f'{num}.txt', 'r') as f:
@@ -7,4 +8,4 @@ def correct_each(num):
         f.writelines(data[:-3])
 
 for x in range(1, 201):
-    correct_each(x)
+    os.rename(f'output{x}.txt', f'{x}.txt')

@@ -41,6 +41,14 @@ rr
 ll
 
 The active tab is tab 1
+x
+kkk
+ddd
+
+gg
+eee
+xx
+
 yy
 dd
 eee
@@ -49,48 +57,40 @@ vv
 rr
 ll
 
+The active tab is tab 1
 x
 kkk
 ddd
 
-gg
-eee
-xx
-
-The active tab is tab 1
 yy
 dd
 eee
 
-x
-kkk
-ddd
-
-gg
-eee
-xx
+vv
+rr
+ll
 
 The active tab is tab 2
-yy
-dd
-eee
-
 x
 kkk
 ddd
+
+yy
+dd
+eee
 
 aaa
 ooo
 fff
 
-gg
-eee
-xx
+vv
+rr
+ll
 
 The active tab is tab 0
-yy
-dd
-eee
+x
+kkk
+ddd
 
 The active tab is tab 1
 j
@@ -160,10 +160,6 @@ jjj
 zzz
 
 The active tab is tab 2
-ccc
-h
-o
-
 mm
 lll
 mmm
@@ -175,12 +171,12 @@ gg
 v
 jjj
 zzz
+
+ccc
+h
+o
 
 The active tab is tab 2
-ccc
-h
-o
-
 mm
 lll
 mmm
@@ -192,4 +188,8 @@ gg
 v
 jjj
 zzz
+
+ccc
+h
+o
 

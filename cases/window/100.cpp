@@ -52,28 +52,33 @@ wind->getActiveTab();
 Tab E = Tab("vv", "p","kkk");
 wind->newTab(E);
 Tab Z = Tab("sss", "fff","pp");
-wind->print();
+
+/////
+wind->print(); // boş - h - i - f - p (4)
 wind->getActiveTab();
 Tab M = Tab("p", "zz","g");
-wind->newTab(L);
+wind->newTab(L); // boş - h - i - f - p - n (5)
 wind->getActiveTab();
 Tab J = Tab("qqq", "tt","nn");
-wind->changeActiveTabTo(3);
-wind->newTab(J);
+wind->changeActiveTabTo(3); // boş - h - i - f - p - n (3)
+wind->newTab(J); // boş - h - i - f - t - p - n (4)
 Tab F = Tab("eee", "h","qqq");
 wind->isEmpty();
-wind->closeTab();
-wind->closeTab();
-wind->moveActiveTabTo(1);
+wind->closeTab(); // boş - h - i - f - p - n (4)
+wind->closeTab(); // boş - h - i - f - n (4)
+wind->moveActiveTabTo(1); // boş - n - h - i - f (1)
 wind->getActiveTab();
-wind->moveActiveTabTo(4);
-wind->moveActiveTabTo(2);
+wind->moveActiveTabTo(4); // boş - h - i - f - n (4)
+wind->moveActiveTabTo(2); // boş - h - n - i - f (2)
 wind->isEmpty();
-wind->closeTab();
-wind->closeTab();
-wind->changeActiveTabTo(3);
+wind->closeTab(); // boş - h - i - f (2)
+wind->closeTab(); // boş - h - f (2)
+wind->changeActiveTabTo(3); // boş - h - f (2)
 wind->getActiveTab();
 wind->print();
+
+////
+
 Tab G = Tab("k", "gg","i");
 wind->changeActiveTabTo(0);
 wind->newTab(F);

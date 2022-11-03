@@ -75,9 +75,9 @@ ll
 yy
 
 The active tab is tab 1
-k
-xxx
-ggg
+bb
+f
+ss
 
 k
 uu
@@ -92,9 +92,9 @@ oo
 yy
 rrr
 
-k
-xxx
-ggg
+bb
+f
+ss
 
 The active tab is tab 2
 gg
@@ -105,9 +105,9 @@ oo
 yy
 rrr
 
-k
-xxx
-ggg
+bb
+f
+ss
 
 The active tab is tab 2
 gg
@@ -118,18 +118,18 @@ oo
 yy
 rrr
 
-k
-xxx
-ggg
+bb
+f
+ss
 
 The active tab is tab 0
 gg
 ddd
 o
 
-k
-xxx
-ggg
+bb
+f
+ss
 
 oo
 yy

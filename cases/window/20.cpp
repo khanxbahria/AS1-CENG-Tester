@@ -133,4 +133,5 @@ wind->changeActiveTabTo(0);
 delete wind;
 }
 	return 0;
-}
+};
+

@@ -85,6 +85,14 @@ a
 aaa
 
 The active tab is tab 1
+u
+rrr
+x
+
+f
+x
+t
+
 ii
 ii
 z
@@ -109,15 +117,11 @@ dd
 a
 aaa
 
+The active tab is tab 2
 u
 rrr
 x
 
-f
-x
-t
-
-The active tab is tab 2
 ii
 ii
 z
@@ -125,6 +129,10 @@ z
 ppp
 s
 mmm
+
+ii
+ii
+i
 
 rrr
 uu
@@ -134,20 +142,12 @@ dd
 a
 aaa
 
+The active tab is tab 0
 u
 rrr
 x
 
-f
-x
-t
-
-The active tab is tab 0
 ii
 ii
 z
-
-ppp
-s
-mmm
 

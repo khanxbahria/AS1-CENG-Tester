@@ -187,13 +187,9 @@ u
 ff
 
 The active tab is tab 2
-i
-c
-k
-
-yyy
-u
-ff
+cc
+qq
+nn
 
 oo
 hhh
@@ -203,7 +199,11 @@ jjj
 tt
 qqq
 
-ll
-v
-o
+i
+c
+k
+
+yyy
+u
+ff
 
