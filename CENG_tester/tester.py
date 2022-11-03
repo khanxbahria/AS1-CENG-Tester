@@ -119,6 +119,9 @@ def test_program(program):
     expected_output_dir = Path(f"expected_output/{ARGS.program}")
     your_output_dir = Path(f"your_output/{ARGS.program}")
 
+    # delete old output files
+    [f.unlink() for f in your_output_dir.glob("*.txt") if f.is_file()]
+
     test_cases_dir.mkdir(parents=True, exist_ok=True)
     expected_output_dir.mkdir(parents=True, exist_ok=True)
     your_output_dir.mkdir(parents=True, exist_ok=True)
