@@ -9,7 +9,12 @@ WINDOW_MAX_CASES = 200
 BROWSER_MAX_CASES = 200
 
 ARGS = None
-os.system("")  # enables ansi escape characters in terminal
+
+# Stupid Windows Stuff
+if os.name == "nt":
+    os.system("")  # enables ansi escape characters in terminal
+    from ctypes import windll #for tkinter text scaling
+    windll.shcore.SetProcessDpiAwareness(1)
 
 class bcolors:
     HEADER = '\033[95m'
@@ -201,7 +206,7 @@ def run_ceng_tester():
                         help = 'Enables full logging')
     parser.add_argument('-c', '--cases', type=list, metavar='CASE#',
                         help = 'Specific case#(s) to be tested. Can be multiple space separated values.')
-    parser.add_argument('-cc', '--compiler-command', default='g++ -ansi -Wall -pedantic-errors -O0')
+    parser.add_argument('-cc', '--compiler-command', default='g++')
     #parser.add_argument('-s', '--save-all', action='store_true', default=False,
     #                    help = 'Saves the given output of your code for every test case to the file. Otherwise, only output of failed test cases are saved.')
     parser.add_argument('-d', '--diff', action='store_true', default=False,
