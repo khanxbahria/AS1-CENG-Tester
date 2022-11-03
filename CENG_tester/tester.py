@@ -66,7 +66,10 @@ def compile(num):
 def run_test_case(num):
     command = f"./{num}"
     r = run_command(command)
-    os.remove(f'{num}')
+    if os.name == "nt":
+        os.remove(f'{num}.exe')
+    else:
+        os.remove(f'{num}')
     if r.stderr:
         raise RunException(Exception)
     return r.stdout
