@@ -9,6 +9,7 @@ WINDOW_MAX_CASES = 200
 BROWSER_MAX_CASES = 200
 
 ARGS = None
+os.system("")  # enables ansi escape characters in terminal
 
 class bcolors:
     HEADER = '\033[95m'
