@@ -72,7 +72,7 @@ def check_compiler_exists():
     return True
 
 def check_code_exists():
-    your_code_files = Path('your_code').glob('*')
+    your_code_files = Path('your_code').glob('*.h')
     if not len(list(your_code_files)):
         return False
     return True
