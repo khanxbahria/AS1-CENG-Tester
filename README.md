@@ -49,7 +49,7 @@ options:
   -d, --diff            Display diff between Given Output and Expected Output. Note: Requires Tkinter
   ```
   
-  Test all cases for browser and display diff
+  Test all cases for window and display diff
   ```
   python AS1_tester.py -p window -d 
   ```
