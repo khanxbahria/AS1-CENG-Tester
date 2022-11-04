@@ -59,7 +59,10 @@ def compile(num):
     command = ARGS.compiler_command + f" {inputf} -o {num}"
     
     v_print(f"Compiling {num}.cpp")
-    r = run_command(command)
+    try:
+        r = run_command(command)
+    except Exception as e:
+        raise CompileException(e)
     if r.stderr:
         raise CompileException(r.stderr)
 
@@ -75,7 +78,10 @@ def run_test_case(num):
     return r.stdout
 
 def check_compiler_exists():
-    r = run_command(ARGS.compiler_command.split()[0] + " --version")
+    try:
+        r = run_command(ARGS.compiler_command.split()[0] + " --version")
+    except:
+        return False
     if r.stderr:
         return False
     return True
@@ -144,19 +150,17 @@ def test_program(program):
         expected_outf = expected_output_dir / f"{x}.txt"
         try:
             compile(x)
-            your_output = run_test_case(x)
+            your_output = str(run_test_case(x))
         except CompileException as e:
             color = bcolors.FAIL
             v_print(f"{color}Compilation error: {e}{bcolors.ENDC}")
             your_output=str(e)
-            failed += 1
         except RunException as e:
             your_output=str(e)
             color = bcolors.FAIL
             v_print(f"{color}Runtime error:")
             v_print(e)
             v_print(bcolors.ENDC)
-            failed += 1
 
         expected_output = read_f(expected_outf)
         if(expected_output == your_output):
