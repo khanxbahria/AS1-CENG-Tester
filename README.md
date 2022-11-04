@@ -24,6 +24,12 @@ AS1-CENG-Tester
 |    └───window
 |    └───browser
 ```
+You may also need to temporarily add the following public member function in your ```Browser.h``` file:
+```cpp
+    void addWindow(Window& w) {
+        windows.append(w);
+    }
+```
 
 ### Usage
 ```
