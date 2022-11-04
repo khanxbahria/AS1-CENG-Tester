@@ -1,6 +1,10 @@
 # AS1-CENG-Tester
  A script that will compile and run C++ test cases against your code to test against the given set of expected outputs
 
+## Demo
+<img src="demo.gif">
+<img src="diff_screenshot.png" width=600>
+
 ## How to Use
 
 ### Prepare
